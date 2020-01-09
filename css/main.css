@@ -10,7 +10,6 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.2 serif;
 }
 
 *, *::before, *::after {
@@ -32,6 +31,6 @@ img {
 }
 
 p {
-  margin: .5em 0;
+  margin: .5em 0 1em;
   padding: 0;
 }
