@@ -10,8 +10,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   box-sizing: border-box;
-  font: normal 100%/1.3 Arial, sans-serif;
-  background-color: #e2e2e2;
+  font: normal 100%/1.3 serif;
 }
 
 *, *::before, *::after {
@@ -50,6 +49,10 @@ img {
     margin: 0 0 1.4rem;
   }
 
+  .s-1 {
+    width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 38em) {
@@ -60,8 +63,12 @@ img {
     margin: 0 0 1.4rem;
   }
 
+  .m-1 {
+    width: 100%;
+  }
+
   .m-1-2 {
-    width: 33.333%;
+    width: 50%;
   }
 
 }
@@ -72,6 +79,14 @@ img {
     font-size: 120%;
     line-height: 1.5;
     margin: 0 0 1.5rem;
+  }
+
+  .xs-1 {
+    max-width: 33%;
+  }
+
+  .l-1-3 {
+    width: 33.333%;
   }
 
 }
